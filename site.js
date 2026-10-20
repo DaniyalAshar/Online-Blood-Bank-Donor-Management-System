@@ -1,0 +1,1 @@
+const menuBtn=document.getElementById("menuBtn"),mobileNav=document.getElementById("mobileNav");if(menuBtn&&mobileNav){menuBtn.addEventListener("click",()=>{const open=mobileNav.classList.toggle("hidden")===false;menuBtn.setAttribute("aria-expanded",String(open));menuBtn.textContent=open?"Close":"Menu";});}
